@@ -1,0 +1,152 @@
+
+ /* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 8% 3% 5% 3%;
+}
+
+ /* ELECTION MAP AND TOGGLE SWITCH */
+#election {
+    width: 70%;
+    float: left;
+    /* margin: 5% 0 0 25%; */
+}
+
+#toggle-switch {
+    margin: 0 30% 5% 30%;
+    border-style: solid;
+
+}
+
+#toggle-switch button {
+    font-size: 1.4em;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.toggle-switch__button {
+    background-color: white;
+    color: black;
+}
+
+.toggle-switch__button--active {
+    background-color: black;
+    color: white;
+}
+
+ /* SIDEBAR GRAPH COLOR EXPLANATIONS */
+#legend {
+    width: 25%;
+    float: left;
+    margin-top: 7%;
+}
+
+.legend__party {
+    height: 2em;
+}
+
+.party-name {
+    padding-left: 5%;
+    float: left;
+    width: 70%;
+}
+
+.box {
+    width: 20%;
+    float: left;
+    height: 1em;
+    background-color: gray;
+}
+
+.red {
+    background-color: red !important;
+    fill : red !important; 
+}
+
+ /* PARTY PREFIX COLORS */
+.popup__party {
+    background: gray !important;
+    color: white !important;
+}
+
+.akp__color {
+    fill: orange !important;
+    background-color: orange !important;
+    color: white !important;
+}
+
+.bbp__color {
+    fill: firebrick !important;
+    background-color: firebrick !important;
+    color: white !important;
+}
+
+.btp__color {
+    fill: chocolate !important;
+    background-color: chocolate !important;
+    color: white !important;
+}
+
+.chp__color {
+    fill: red !important;
+    background-color: red !important;
+    color: white !important;
+}
+
+.dp__color {
+    fill: darkred !important;
+    background-color: darkred !important;
+    color: white !important;
+}
+
+.dsp__color {
+    fill: darkblue !important;
+    background-color: darkblue !important;
+    color: white !important;
+}
+
+.iyi-parti__color {
+    fill: lightskyblue !important;
+    background-color: lightskyblue !important;
+    color: white !important;
+}
+
+.mhp__color {
+    fill: blue !important;
+    background-color: blue !important;
+    color: white !important;
+}
+
+.hdp__color {
+    fill: purple !important;
+    background-color: purple !important;
+    color: white !important;
+}
+
+.saadet-partisi__color {
+    fill: orangered !important;
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.tkp__color {
+    fill: green !important;
+    background-color: green !important;
+    color: white !important;
+}
+
+.vatan-partisi__color {
+    fill: darkslategray !important;
+    background-color: darkslategray !important;
+    color: white !important;
+}
+
+.bagimsiz__color {
+    fill: gray !important;
+    background-color: gray !important;
+    color: white !important;
+}
