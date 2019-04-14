@@ -1,5 +1,5 @@
-# Staj-Kampi-2019
-Turkey election map for Staj Kampi 2019 - Atolye15
+# Secim Haritasi
+Turkey election map
 
 Bu proje verilen secim.js dosyasındaki verilere vektörel bir türkiye haritasının renklendirilmesini sağlamaktadır.
 Toggleswith ile kontrol edilebilen 2 farklı renklendirme mevcuttur.
